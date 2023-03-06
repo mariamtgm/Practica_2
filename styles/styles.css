@@ -1,0 +1,89 @@
+.Agencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Destino {
+    display: flex;
+    align-items: center;
+
+    width: 1000px;
+    padding: 10px;
+    margin: 10px;
+    border: solid gray;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.Destino:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.Destino_Texto {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.Destino_Imagen_Corta {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Destino_Titulo {
+    font-size: 2.5em;
+    margin: 10px;
+}
+
+.Destino_Descripcion_Corta {
+    margin: 10px;
+    text-align: center;
+    color: lightblue;
+}
+
+.Destino_Detalle_Contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Destino_Imagen_Larga {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.Destino_Detalle_Titulo {
+    font-size: 2.5em;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.Destino_Descripcion_Larga {
+    margin: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: lightblue;
+    width: 80%;
+}
+
+.Flecha {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    width: 1.3em;
+    border: solid white;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.Flecha:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
